@@ -1,0 +1,106 @@
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+body {
+  background-image: url("http://csababernath.com/adambernath/files/works/3d/blackjack.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.dealerClass {
+  width: 80%;
+  border: 1px solid black;
+  float: left;
+  margin-left: 5px;
+  height: 10rem; }
+
+#picture {
+  opacity: 0.5;
+  width: 100%; }
+
+.buttonClass {
+  clear: both;
+  margin-left: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 20px; }
+
+.chipsClass {
+  margin-left: 5px; }
+
+.playerClass {
+  margin-top: 10px;
+  width: 30%;
+  border: 1px solid black;
+  float: left;
+  margin-left: 5px;
+  height: 10rem; }
+
+#playerChipsValue {
+  font-size: 40px;
+  margin-top: 10px;
+  font-size: 3rem; }
+
+#dealerChipsValue {
+  margin-top: 10px;
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgba(138, 203, 133, 0.1); }
+
+#playerChipID {
+  text-align: center;
+  width: 40%;
+  margin-left: 28%;
+  border: 1px solid black;
+  height: 100px; }
+
+#dealerChipID {
+  width: 30%;
+  float: left;
+  text-align: center;
+  border: 1px solid black;
+  height: 80px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 24px;
+  margin-left: 60px;
+  background-color: rgba(138, 203, 133, 0.9); }
+
+#dealerScore {
+  margin-top: 40px;
+  background-color: rgba(138, 203, 133, 0.2);
+  width: 20%;
+  text-align: center; }
+
+#dealerCards {
+  font-weight: bold;
+  margin-top: 40px;
+  width: 50%;
+  margin-left: 20%;
+  clear: left;
+  text-align: center;
+  background-color: rgba(138, 203, 133, 0.2); }
+
+#playerScore {
+  margin-top: 40px;
+  background-color: rgba(138, 203, 133, 0.2);
+  width: 20%;
+  text-align: center; }
+
+#playerCards {
+  font-weight: bold;
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 20%;
+  text-align: center;
+  background-color: rgba(138, 203, 133, 0.2); }
+
+#wrapper {
+  width: 100%;
+  height: 100%; }
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
