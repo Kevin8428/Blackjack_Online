@@ -1,0 +1,70 @@
+<!-------------------------------------->
+<!--RAW FORMAT BEFORE BLACKJACK--------->
+<!-------------------------------------->
+<!-- <h1>Index here</h1> -->
+
+<!--bootstrap uses a row column based system  -->
+<!--so you add rows of content and inside those rows you have columns  -->
+<!--columns are based on a 12 grid system bootstrap foundation is build in way -->
+<!--many primary front end framewords are containers that contain rows -->
+<!-- inside those rows are columns, which can take up a 12 grid system -->
+
+<!-- <section>
+  <article class="row"> -->
+  <!-- row is valid bootstrap class that will turn this into a row -->
+  <!-- <div class="col-md-6"> -->
+    <!-- columns must add up to 12 spaces -->
+    <!-- <h1>welcome to our page</h1>
+    <h2>Site API is here</h2>
+  </div> -->
+
+  <!-- <div class="col-md-6"> -->
+    <!-- columns must add up to 12 spaces -->
+    <!-- <h3>h3 text here</h3>
+  </div>
+  </article>
+</section> -->
+
+<!-------------------------------------->
+<!--END RAW FORMAT BEFORE BLACKJACK----->
+<!-------------------------------------->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/style.css" media="screen" title="no title" charset="utf-8">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src = "/js/app.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <section class = "chipsClass">
+            <section id = "dealerChipID">dealer chips
+            <div id = "dealerChipsValue">100</div>
+            </section>
+      </section>
+          <section class = "dealerClass" id = "dealerCards">Dealer Cards</section>
+          <section class = "dealerClass" id = "dealerScore">Dealer Score
+            <div id = "dealerScoreValue"></div>
+          </section>
+          <section class = "playerClass" id = "playerCards">Player Cards</section>
+          <section class = "playerClass" id = "playerScore">Player Score
+            <div id = "playerScoreValue"></div>
+          </section>
+          <section class = "buttonClass">
+            <button type="button" id = "playerDeal">Deal The Cards</button>
+            <button type="button" id = "playerHit">Hit Me!</button>
+            <button type="button" id = "playerStand">Stand</button>
+            <button type="button" id = "playAgain">Play Again</button>
+          </section>
+          <section class = "chipsClass">
+            <section id ="playerChipID">player chips
+              <div id = "playerChipsValue">100</div>
+            </section>
+          </section>
+    </div>
+  </body>
+</html>
